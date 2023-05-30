@@ -18,23 +18,11 @@ creating intuitive, enjoyable experiences for users.
 
 - Whether I'm working on a website, mobile app, or 
 other digital product, I bring my commitment to design excellence and user-centered thinking to 
-every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
-
+every project I work on. I look forward to the opportunity to bring my skills and passion to your next project
 --------------------------------------------------------------
 
 EXPERIENCE: 
 
-Software Engineer @Google
-2022-Present | Mountain View, CA
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization.
-
-Intern @Facebook
-Summer 2021 | Menlo Park, CA.
-Worked on a team responsible for developing a new mobile app feature that allowed users to create and 
-share short-form video content, including designing and implementing a new user interface and developing 
-the backend infrastructure to support the feature.
 
 Software Developer @Amazon
 2020-2021 | Seattle, WA.
