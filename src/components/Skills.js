@@ -24,6 +24,7 @@ const Skill = ({ icon, name, x, y }) => {
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y }}
       transition={{ duration: 1.5 }}
+      viewport={{ once: true }}
     >
       <div className="mr-1">{icon}</div>
       {name}
@@ -51,7 +52,7 @@ const Skills = () => {
         <Skill icon={<ReactIcon />} name="ReactJS" x="0vw" y="10vw" />
         <Skill icon={<NextJsIcon />} name="NextJS" x="-20vw" y="-15vw" />
         <Skill icon={<ReduxIcon />} name="Redux" x="15vw" y="-12vw" />
-        <Skill icon={<NodeIcon />} name="NodeJS" x="32vw" y="-5vw" />
+        <Skill icon={<NodeIcon className={"w-6 h-6"}/>} name="NodeJS" x="32vw" y="-5vw" />
         <Skill icon={<ExpressJsIcon />} name="ExpressJS" x="0vw" y="-22vw" />
         <Skill icon={<MongoDbIcon />} name="MongoBD" x="-5vw" y="-10vw" />
         <Skill
