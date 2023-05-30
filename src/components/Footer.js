@@ -16,7 +16,7 @@ const Footer = () => {
           </a>
         </span>
         <div className="flex items-center">
-          Codeado con{" "}
+          Desarrollado con{" "}
           <span className="text-red-700 text-2xl px-1">&#9825;</span> por&nbsp;
           Antonio Rodríguez | Full Stack Web developer
         </div>
