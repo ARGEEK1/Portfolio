@@ -11,7 +11,7 @@ const CustomLink = ({ href, title, className = "" }) => {
     <Link href={href} className={`${className} relative group`}>
       {title}
       <span
-        className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-3000 ${
+        className={`h-[1.5px] inline-block bg-dark absolute left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-3000 ${
           router.asPath === href ? "w-full" : "w-0"
         }`}
       >
@@ -52,7 +52,8 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <MotionLink
-          href="/contact"
+          href="mailto:antonio198889@gmail.com"
+          target="_blank"
           title="Contáctame"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}

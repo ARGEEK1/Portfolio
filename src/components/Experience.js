@@ -62,7 +62,7 @@ const Experience = () => {
             companyLink="https://www.agronomiacentral.com/"
             time="abr. 2023 - may. 2023 · 2 meses"
             address="Buenos Aires - Argentina"
-            work="Proyecto bajo el marco de trabajo de la metodología ágil Scrum. Este proyecto exigía una página web fácil de usar, informativa y útil para los propósitos del cliente, así como también un dashboard administrativo para gestionar el contenido de la página y herramientas de visualización y control de información importante para el club. Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand y Tailwind CSS, las cuales nos permitieron crear una aplicación web sólida y eficiente."
+            work="En este puesto, tuve la oportunidad de colaborar estrechamente con un equipo en el diseño y desarrollo de un sitio web para un club. Fue un proyecto emocionante donde creamos una página web moderna e interactiva para los usuarios. Además, desarrollamos un dashboard administrativo con diversas funcionalidades, permitiendo gestionar el contenido del sitio de manera eficiente. También implementamos una pasarela de pago para donaciones, asegurando que los usuarios pudieran realizar contribuciones de forma segura y fácil. Fue gratificante ver cómo el sitio web y las herramientas que creamos proporcionaron una experiencia fluida y eficaz tanto para los usuarios como para el club."
           />
 
           <Details
@@ -80,7 +80,7 @@ const Experience = () => {
             companyLink="https://www.agronomiacentral.com/"
             time="2019 - 2022 · 3 años"
             address="Región Metropolitana de Santiago - Chile"
-            work=" Diagnóstico y reparación de placas electrónicas, mantenimiento de equipos móviles, entre otros. Diagnóstico y reparación de fallas en componentes electrónicos de placas, como circuitos integrados, resistencias, capacitores y transistores. Manejo y cuidado adecuado de herramientas y equipos de trabajo, como estaciones de soldadura, microscopio, osciloscopios y multímetros entre otros.• Diagnóstico y reparación de placas electrónicas, mantenimiento de equipos móviles, entre otros. • Diagnóstico y reparación de fallas en componentes electrónicos de placas, como circuitos integrados, resistencias, capacitores y transistores. • Manejo y cuidado adecuado de herramientas y equipos de trabajo, como estaciones de soldadura, microscopio, osciloscopios y multímetros entre otros."
+            work="Diagnóstico y reparación de placas electrónicas, mantenimiento de equipos móviles, entre otros. Diagnóstico y reparación de fallas en componentes electrónicos de placas, como circuitos integrados, resistencias, capacitores y transistores. Manejo y cuidado adecuado de herramientas y equipos de trabajo, como estaciones de soldadura, microscopio, osciloscopios y multímetros entre otros."
           />
         </ul>
       </div>
