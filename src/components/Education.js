@@ -17,7 +17,7 @@ const Details = ({ type, time, place, info }) => {
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className="capitalalize font-bold text-2xl">{type}</h3>
-        <span className="capitalize font-medium text-dark/75">
+        <span className="capitalize font-medium text-dark/75 dark:text-light/75">
           {time} | {place}
         </span>
         <p className="font-medium w-full">{info}</p>
@@ -41,7 +41,7 @@ const Education = () => {
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top"
+          className="absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top"
         />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
@@ -49,7 +49,7 @@ const Education = () => {
             type="Full Stack Developer"
             time="ene. 2023 - may. 2023"
             place="Henry"
-            info="Desarrollo de páginas web, contenido digital/multimedia y recursos informáticos. JavaScript Avanzado, Algoritmos, Estructuras de Datos, Document Object Model, CSS Avanzado, ES6, AJAX, React/Redux, NodeJS, Promises, Web Server, APIs, Express, Testing, SQL, PostgresSQL, Object Relational Mapping, Autenticación, Git, Test-Driver Development, Programación Orientada a Objetos, Agile Menthodologies."
+            info="Desarrollo de páginas web, contenido digital-multimedia y recursos informáticos. JavaScript Avanzado, Algoritmos, Estructuras de Datos, Document Object Model, CSS Avanzado, ES6, AJAX, React/Redux, NodeJS, Promises, Web Server, APIs, Express, Testing, SQL, PostgresSQL, Object Relational Mapping, Autenticación, Git, Test-Driver Development, Programación Orientada a Objetos, Agile Menthodologies."
           />
         </ul>
       </div>

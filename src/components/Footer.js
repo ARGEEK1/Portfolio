@@ -3,7 +3,10 @@ import Layout from "./Layout";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-7 border-t-2 border-solid border-dark font-medium text-lg">
+    <footer
+      className="w-full h-7 border-t-2 border-solid border-dark font-medium text-lg
+    dark:text-light dark:border-light"
+    >
       <Layout className="py-8 flex items-center justify-between">
         <span>
           &copy; 2023{" "}
@@ -17,8 +20,10 @@ const Footer = () => {
         </span>
         <div className="flex items-center">
           Desarrollado con{" "}
-          <span className="text-red-700 text-2xl px-1">&#9825;</span> por&nbsp;
-          Antonio Rodríguez | Full Stack Web developer
+          <span className="text-primary dark:text-primaryDark text-2xl px-1">
+            &#9825;
+          </span>{" "}
+          por&nbsp; Antonio Rodríguez | Full Stack Web developer
         </div>
       </Layout>
     </footer>

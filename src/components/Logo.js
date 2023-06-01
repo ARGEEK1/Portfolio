@@ -9,7 +9,7 @@ export const Logo = () => {
     <div className="flex items-center justify-center mt-2">
       <MotionLink
         href="/"
-        className="p-0.5 border-4 border-dark flex items-center justify-center text-2xl font-bold"
+        className="p-0.5 border-4 border-dark dark:border-light flex items-center justify-center text-2xl font-bold"
         whileHover={{
           // backgroundColor: ["#121212","rgba(131,58,180,1)","rgba(253,29,29,1)","rgba(252,176,69,1)","rgba(131,58,180,1)", "#121212"],
           // transition: {
@@ -19,10 +19,10 @@ export const Logo = () => {
           scale: 1.1,
         }}
       >
-        <div className="bg-dark text-light font-mono p-0.5 flex items-center justify-center">
+        <div className="bg-dark text-light dark:bg-light dark:text-dark font-mono p-0.5 flex items-center justify-center">
           {"{A"}
         </div>
-        <div className="bg-light text-dark font-mono p-0.5 flex items-center justify-center">
+        <div className="bg-light text-dark dark:bg-dark dark:text-light font-mono p-0.5 flex items-center justify-center">
           {"R}"}
         </div>
       </MotionLink>
