@@ -6,6 +6,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/project-1.png";
+import project2 from "../../public/images/projects/project-2.png";
+import project3 from "../../public/images/projects/project-3.png";
+import project4 from "../../public/images/projects/project-4.png";
+import project5 from "../../public/images/projects/project-5.png";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -57,11 +61,11 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 const Project = ({ type, title, img, link, github }) => {
   return (
     <article
-      className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark
+      className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid shadow-2xl border-dark
       bg-light p-6 relative"
     >
       <div
-        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem]
+        className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem]
       bg-dark rounded-br-3xl"
       />
       <Link
@@ -115,56 +119,52 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
               <FeaturedProject
-                title="Club Agrononomía central"
-                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand y Tailwind CSS."
+                title="Club Agrononomía Central"
+                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand, Tailwind CSS entre otras."
                 link="https://club-agronomia-central.vercel.app/"
                 img={project1}
-                github="https://github.com/Brycot/Club-Agronomia-Central"
-                type="Sitios web - Aplicaciones web"
+                github="https://github.com/ARGEEK1/Club-Agronomia-Central"
+                type="Sitio web - Aplicación web"
               />
             </div>
 
             <div className="col-span-6">
               <Project
-                title="Club Agrononomía central"
-                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand y Tailwind CSS."
-                link="https://club-agronomia-central.vercel.app/"
-                img={project1}
-                github="https://github.com/Brycot/Club-Agronomia-Central"
-                type="Sitios web - Aplicaciones web"
+                title="Gamer Wiki"
+                link="https://pi-videogames-six-puce.vercel.app/"
+                img={project2}
+                github="https://github.com/ARGEEK1/PI-Videogames"
+                type="Aplicación web"
               />
             </div>
 
             <div className="col-span-6">
               <Project
-                title="Club Agrononomía central"
-                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand y Tailwind CSS."
-                link="https://club-agronomia-central.vercel.app/"
-                img={project1}
-                github="https://github.com/Brycot/Club-Agronomia-Central"
-                type="Sitios web - Aplicaciones web"
+                title="Igeek - CRUD"
+                link="https://igeek-crud-production.up.railway.app/productos"
+                img={project3}
+                github="https://github.com/ARGEEK1/IGEEK-CRUD"
+                type="Aplicación web"
               />
             </div>
 
             <div className="col-span-6">
               <Project
-                title="Club Agrononomía central"
-                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand y Tailwind CSS."
-                link="https://club-agronomia-central.vercel.app/"
-                img={project1}
-                github="https://github.com/Brycot/Club-Agronomia-Central"
-                type="Sitios web - Aplicaciones web"
+                title="Portfolio"
+                link="https://github.com/ARGEEK1/Portfolio"
+                img={project4}
+                github="https://github.com/ARGEEK1/Portfolio"
+                type="Sitio web"
               />
             </div>
 
             <div className="col-span-6">
               <Project
-                title="Club Agrononomía central"
-                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand y Tailwind CSS."
-                link="https://club-agronomia-central.vercel.app/"
-                img={project1}
-                github="https://github.com/Brycot/Club-Agronomia-Central"
-                type="Sitios web - Aplicaciones web"
+                title="App Rick and Morty"
+                link="https://github.com/ARGEEK1/rick_and_morty"
+                img={project5}
+                github="https://github.com/ARGEEK1/rick_and_morty"
+                type="Aplicaciones web"
               />
             </div>
           </div>
