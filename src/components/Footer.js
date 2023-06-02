@@ -4,11 +4,11 @@ import Layout from "./Layout";
 const Footer = () => {
   return (
     <footer
-      className="w-full h-7 border-t-2 border-solid border-dark font-medium text-lg
-    dark:text-light dark:border-light"
+      className="w-full h-auto border-t-2 border-solid border-dark font-medium text-lg
+    dark:text-light dark:border-light sm:text-base"
     >
-      <Layout className="py-8 flex items-center justify-between">
-        <span>
+      <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
+        <div className="flex items-center lg:py-2">
           &copy; 2023{" "}
           <a
             href="https://github.com/ARGEEK1"
@@ -17,13 +17,15 @@ const Footer = () => {
           >
             ARGEEK1
           </a>
-        </span>
-        <div className="flex items-center">
-          Desarrollado con{" "}
-          <span className="text-primary dark:text-primaryDark text-2xl px-1">
-            &#9825;
-          </span>{" "}
-          por&nbsp; Antonio Rodríguez | Full Stack Web developer
+        </div>
+        <div className="flex items-center lg:flex-col">
+          <div>
+            Desarrollado con{" "}
+            <span className="text-primary dark:text-primaryDark text-2xl px-1">
+              &#9825;
+            </span>{" "}
+          </div>
+          por&nbsp; Antonio Rodríguez
         </div>
       </Layout>
     </footer>
