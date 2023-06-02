@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import { GitHubIcon, LinkedInIcon, MailIcon, SunIcon, MoonIcon } from "./Icons";
@@ -27,9 +27,28 @@ const MotionLink = motion(Link);
 const NavBar = () => {
   const [mode, setMode] = useThemeSwitcher();
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <header className="w-full px-32 py-8 font-medium flex items-center justify-between
-    dark:text-light">
+    <header
+      className="w-full px-32 py-8 font-medium flex items-center justify-between
+    dark:text-light"
+    >
+      <button
+        className="flex flex-col justify-center items-center"
+        onClick={handleClick}
+      >
+        <span className="bg-dark dark:bg-light block h-0.5 w-6 rounded-sm -translate-y-0.5"></span>
+        <span
+          className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm my-0.5`}
+        ></span>
+        <span className="bg-dark dark:bg-light block h-0.5 w-6 rounded-sm translate-y-0.5"></span>
+      </button>
+
       <nav>
         <CustomLink href="/" title="Inicio" className="mr-4" />
         <CustomLink href="/about" title="Sobre Mí" className="mx-4" />
@@ -66,9 +85,10 @@ const NavBar = () => {
           <MailIcon />
         </MotionLink>
 
-        <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
+        <button
+          onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={`ml-3 flex items-center justify-center rounded-full p-1
-          ${mode ==="light" ? "bg-dark text-light" : "bg-light text-dark"}
+          ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
           `}
         >
           {mode === "dark" ? (
