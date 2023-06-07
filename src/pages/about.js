@@ -53,7 +53,7 @@ const about = () => {
                 Sobre Mí
               </h2>
               <p className="font-medium">
-                ¡Hola! 👋 Soy Antonio Rodriguez, desarrollador Full Stack en
+                ¡Hola! 👋 Soy Antonio Rodríguez, desarrollador Full Stack en
                 constante evolución y aprendizaje. Mi background en electrónica
                 y microsoldadura SMD ha desarrollado mi pensamiento lógico y
                 habilidades de resolución de problemas.
