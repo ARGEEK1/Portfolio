@@ -9,7 +9,7 @@ const Footer = () => {
     >
       <Layout className="flex items-center justify-between lg:flex-col !p-8 xl:!p-6 lg:!p-6 md:!p-6 sm:!p-6">
         <div className="flex items-center">
-          &copy; 2023{" "}
+          &copy; 2023&nbsp;
           <a
             href="https://github.com/ARGEEK1"
             target="_blank"
