@@ -13,7 +13,7 @@ const Footer = () => {
           <a
             href="https://github.com/ARGEEK1"
             target="_blank"
-            className="underline underline-offset-2 cursor-pointer"
+            className="underline underline-offset-2 cursor-pointer ml-2"
           >
             ARGEEK1
           </a>
