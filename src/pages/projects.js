@@ -163,7 +163,7 @@ const projects = () => {
               <FeaturedProject
                 title="Club Agrononomía Central"
                 summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand, Tailwind CSS entre otras."
-                link="https://club-agronomia-central.vercel.app/"
+                link="https://www.agronomiacentral.com/"
                 img={project1}
                 github="https://github.com/ARGEEK1/Club-Agronomia-Central"
                 type="Sitio web - Aplicación web"

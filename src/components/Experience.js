@@ -77,7 +77,7 @@ const Experience = () => {
           <Details
             position="Técnico en Electrónica y Microsoldadura"
             company="iGeek Fixer"
-            companyLink="https://www.agronomiacentral.com/"
+            companyLink="https://www.instagram.com/igeek_fixer/"
             time="2019 - 2022 · 3 años"
             address="Región Metropolitana de Santiago - Chile"
             work="Diagnóstico y reparación de placas electrónicas, mantenimiento de equipos móviles, entre otros. Diagnóstico y reparación de fallas en componentes electrónicos de placas, como circuitos integrados, resistencias, capacitores y transistores. Manejo y cuidado adecuado de herramientas y equipos de trabajo, como estaciones de soldadura, microscopio, osciloscopios y multímetros entre otros."
