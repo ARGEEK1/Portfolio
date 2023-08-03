@@ -57,10 +57,19 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
+            position="Web Developer"
+            company="Landopp"
+            companyLink="https://www.landopp.uy/"
+            time="jun. 2023 - jul. 2023 · 2 meses"
+            address="Montevideo - Uruguay"
+            work="Experiencia como Desarrollador de Aplicación Web en proyecto ambiental, medición de huella plástica y asesoramiento a empresas. Desarrollé componentes y funcionalidades en la interfaz, integré bases de datos, implementé algoritmos y colaboré con un equipo multidisciplinario."
+          />
+
+          <Details
             position="Full Stack Developer"
             company="Club Agrononomía central"
             companyLink="https://www.agronomiacentral.com/"
-            time="abr. 2023 - may. 2023 · 2 meses"
+            time="abr. 2023 - jun. 2023 · 2 meses"
             address="Buenos Aires - Argentina"
             work="En este puesto, tuve la oportunidad de colaborar estrechamente con un equipo en el diseño y desarrollo de un sitio web para un club. Fue un proyecto emocionante donde creamos una página web moderna e interactiva para los usuarios. Además, desarrollamos un dashboard administrativo con diversas funcionalidades, permitiendo gestionar el contenido del sitio de manera eficiente. También implementamos una pasarela de pago para donaciones, asegurando que los usuarios pudieran realizar contribuciones de forma segura y fácil. Fue gratificante ver cómo el sitio web y las herramientas que creamos proporcionaron una experiencia fluida y eficaz tanto para los usuarios como para el club."
           />
