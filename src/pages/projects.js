@@ -10,6 +10,7 @@ import project2 from "../../public/images/projects/project-2.png";
 import project3 from "../../public/images/projects/project-3.png";
 import project4 from "../../public/images/projects/project-4.png";
 import project5 from "../../public/images/projects/project-5.png";
+import project6 from "../../public/images/projects/project-6.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -187,6 +188,17 @@ const projects = () => {
                 img={project3}
                 github="https://github.com/ARGEEK1/IGEEK-CRUD"
                 type="Aplicación web"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Rate Repository App"
+                summary="Para el desarrollo de esta app móvil con React Native, se implementó la funcionalidad de mostrar repositorios provenientes de una API GraphQL, también cuenta con un sistema de login."
+                link="https://github.com/ARGEEK1/Rate-Repository-App"
+                img={project6}
+                github="https://github.com/ARGEEK1/Rate-Repository-App"
+                type="Aplicación móvil (ios - android)"
               />
             </div>
 

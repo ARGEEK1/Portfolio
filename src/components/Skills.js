@@ -13,6 +13,7 @@ import {
   ExpressJsIcon,
   TailwindIcon,
   CssIcom,
+  TypeScriptIcom,
 } from "./Icons";
 
 const Skill = ({ icon, name, x, y }) => {
@@ -63,10 +64,12 @@ const Skills = () => {
         <Skill
           icon={<PostgresSQLIcon />}
           name="PostgresSQL"
-          x="-25vw"
-          y="18vw"
+          x="-20vw"
+          y="20vw"
         />
-        <Skill icon={<MySQLIcon />} name="MySQL" x="30vw" y="18vw" />
+        <Skill icon={<MySQLIcon />} name="MySQL" x="30vw" y="16vw" />
+        <Skill icon={<ReactIcon />} name="React Native" x="-35vw" y="10vw" />
+        <Skill icon={<TypeScriptIcom />} name="TypeScript" x="27vw" y="-18vw" />
         <Skill icon={<TailwindIcon />} name="TailwindCSS" x="-35vw" y="-5vw" />
       </div>
     </>
