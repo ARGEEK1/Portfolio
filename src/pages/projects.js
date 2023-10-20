@@ -11,6 +11,7 @@ import project3 from "../../public/images/projects/project-3.png";
 import project4 from "../../public/images/projects/project-4.png";
 import project5 from "../../public/images/projects/project-5.png";
 import project6 from "../../public/images/projects/project-6.png";
+import project7 from "../../public/images/projects/project-7.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -162,8 +163,19 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
+                title="Plastic Trace By Landopp"
+                summary="App web para la medición de la huella plástica de las empresas. Para el desarrollo del proyecto, utilizamos Node.js, Express, MySQL, Sequelize, React y Tailwind."
+                link="http://landopp.s3-website.us-east-2.amazonaws.com/"
+                img={project7}
+                github="https://github.com/ARGEEK1"
+                type="Aplicación web"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
                 title="Club Agrononomía Central"
-                summary="Para el desarrollo del proyecto, utilizamos tecnologías como NodeJS, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand, Tailwind CSS entre otras."
+                summary="Para el desarrollo del proyecto, utilizamos tecnologías como Node.js, Express, Jwt, MongoDB, Mongoose, Cloudinary, NextJS, Zustand, Tailwind CSS entre otras."
                 link="https://www.agronomiacentral.com/"
                 img={project1}
                 github="https://github.com/ARGEEK1/Club-Agronomia-Central"
