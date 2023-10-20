@@ -12,6 +12,7 @@ import project4 from "../../public/images/projects/project-4.png";
 import project5 from "../../public/images/projects/project-5.png";
 import project6 from "../../public/images/projects/project-6.png";
 import project7 from "../../public/images/projects/project-7.png";
+import project8 from "../../public/images/projects/project-8.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -169,6 +170,17 @@ const projects = () => {
                 img={project7}
                 github="https://github.com/ARGEEK1"
                 type="Aplicación web"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Star Wars API"
+                summary="API REST con arquitectura de microservicios, desplegada utilizando cloud computing. Para el desarrollo se utilizó Node.js, Express, MongoDB, Mongoose, Docker y Google Cloud."
+                link="http://34.125.231.116:8000/characters"
+                img={project8}
+                github="https://github.com/ARGEEK1/be-ct-upskilling-microservicios"
+                type="API REST - Microservices"
               />
             </div>
 
