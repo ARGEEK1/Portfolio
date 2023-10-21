@@ -13,6 +13,8 @@ import project5 from "../../public/images/projects/project-5.png";
 import project6 from "../../public/images/projects/project-6.png";
 import project7 from "../../public/images/projects/project-7.png";
 import project8 from "../../public/images/projects/project-8.png";
+import project9 from "../../public/images/projects/project-9.png";
+import project10 from "../../public/images/projects/project-10.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -181,6 +183,26 @@ const projects = () => {
                 img={project8}
                 github="https://github.com/ARGEEK1/be-ct-upskilling-microservicios"
                 type="API REST - Microservices"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Chat Gpt - Spring"
+                link="https://github.com/ARGEEK1/gpt-spring/tree/main"
+                img={project9}
+                github="https://github.com/ARGEEK1/gpt-spring/tree/main"
+                type="API - Spring"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Crud (Spring - Mysql)"
+                link="https://github.com/ARGEEK1/crud-spring-mysql"
+                img={project10}
+                github="https://github.com/ARGEEK1/crud-spring-mysql"
+                type="App Spring"
               />
             </div>
 
