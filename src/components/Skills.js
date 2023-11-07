@@ -14,6 +14,10 @@ import {
   TailwindIcon,
   CssIcom,
   TypeScriptIcom,
+  JavaIcom,
+  DockerIcon,
+  AngularIcon,
+  SpringIcon,
 } from "./Icons";
 
 const Skill = ({ icon, name, x, y }) => {
@@ -53,10 +57,10 @@ const Skills = () => {
           Web
         </motion.div>
         <Skill icon={<HtmlIcon />} name="HTML" x="-20vw" y="2vw" />
-        <Skill icon={<CssIcom />} name="CSS" x="1vw" y="22vw" />
+        <Skill icon={<CssIcom />} name="CSS" x="1vw" y="27vw" />
         <Skill icon={<JsIcon />} name="JavaScript" x="20vw" y="6vw" />
         <Skill icon={<ReactIcon />} name="ReactJS" x="0vw" y="10vw" />
-        <Skill icon={<NextJsIcon />} name="NextJS" x="-20vw" y="-15vw" />
+        <Skill icon={<NextJsIcon />} name="NextJS" x="-15vw" y="-15vw" />
         <Skill icon={<ReduxIcon />} name="Redux" x="15vw" y="-12vw" />
         <Skill icon={<NodeIcon />} name="NodeJS" x="32vw" y="-5vw" />
         <Skill icon={<ExpressJsIcon />} name="ExpressJS" x="0vw" y="-22vw" />
@@ -71,6 +75,10 @@ const Skills = () => {
         <Skill icon={<ReactIcon />} name="React Native" x="-35vw" y="10vw" />
         <Skill icon={<TypeScriptIcom />} name="TypeScript" x="27vw" y="-18vw" />
         <Skill icon={<TailwindIcon />} name="TailwindCSS" x="-35vw" y="-5vw" />
+        <Skill icon={<DockerIcon />} name="Docker" x="5vw" y="19vw" />
+        <Skill icon={<JavaIcom />} name="Java" x="-25vw" y="-21vw" />
+        <Skill icon={<AngularIcon />} name="Angular" x="14vw" y="-4vw" />
+        <Skill icon={<SpringIcon />} name="Spring" x="-15vw" y="10vw" />
       </div>
     </>
   );
