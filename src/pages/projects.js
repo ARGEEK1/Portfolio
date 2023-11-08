@@ -230,7 +230,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Igeek - CRUD"
-                link="https://igeek-crud-production.up.railway.app/productos"
+                link="http://34.16.134.5:3000/home"
                 img={project3}
                 github="https://github.com/ARGEEK1/IGEEK-CRUD"
                 type="Aplicación web"
